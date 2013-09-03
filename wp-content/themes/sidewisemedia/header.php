@@ -5,7 +5,9 @@
 	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
 	<script src="<?php echo bloginfo('template_url'); ?>/js/default.js"></script>
-	<title></title>
+	<script src="<?php echo bloginfo('template_url'); ?>/css/mobile.css"></script>
+	<script src="<?php echo bloginfo('template_url'); ?>/css/display.css"></script>
+	<title><?php bloginfo('site_name'); ?></title>
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
 	<!--WP-generated header -->
