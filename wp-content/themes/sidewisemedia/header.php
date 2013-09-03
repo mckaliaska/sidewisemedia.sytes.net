@@ -14,5 +14,6 @@
 <body id="wrap">
     <div id="header">
         <img src="<?=bloginfo('template_url'); ?>/img/logo.png" id="logo"/>
+		<?php wp_nav_menu('menu=top'); ?>
     </div>
 header
