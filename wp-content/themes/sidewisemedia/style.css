@@ -12,6 +12,27 @@ Tags: gray, simple
 body {
     margin:0px;
     padding:0px;
-    background-color: red;
-    border:solid 1px;
+}
+
+.mobile {
+    margin:0px;
+    padding:0px;
+    background-color: green;
+}
+
+.display {
+    margin:0px;
+    padding:0px;
+    background-color: blue;
+}
+
+#header {
+    display:inline-block;
+    width: 100%;
+    background-color: #202020;
+}
+
+#logo {
+    margin-left: 5%;
+    width:12%;
 }

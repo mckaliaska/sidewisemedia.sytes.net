@@ -6,12 +6,13 @@
 	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
 	<script src="<?php echo bloginfo('template_url'); ?>/js/default.js"></script>
     <link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/style.css">
-    <link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/css/mobile.css">
-    <link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/css/display.css">
 	<title><?php bloginfo('site_name'); ?></title>
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
 	<!--WP-generated header -->
 </head>
-<body>
+<body id="wrap">
+    <div id="header">
+        <img src="<?=bloginfo('template_url'); ?>/img/logo.png" id="logo"/>
+    </div>
 header
